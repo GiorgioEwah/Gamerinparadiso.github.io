@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>AIGVIP - Homepage</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+	<!--- SPAN MOBILE --->
+
+	<header class="header clearfix">
+		<a href="" class="header_icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+
+
+
+
+		<!--- SCRIITA CHE COLLASSA --->
+
+		<ul class="logotext">
+			<li class="firstletter">G</li>
+			<li class="ghost">A</li>
+			<li class="ghost">M</li>
+			<li class="ghost">E</li>
+			<li class="ghost">R</li>
+			<li class="spaced" id="white">i</li>
+			<li class="ghost" id="white">n</li>
+			<li class="spaced">P</li>
+			<li class="ghost">A</li>
+			<li class="ghost">R</li>
+			<li class="ghost">A</li>
+			<li class="ghost">D</li>
+			<li class="ghost">I</li>
+			<li class="ghost">S</li>
+			<li class="ghost" id="lastletter">O</li>
+		</ul>
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+		<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		<script src="jquery.ui.touch-punch.min.js"></script>
+		<script src="logotext.js"></script>
+
+
+
+
+
+		<!--- BARRA RICERCA --->
+
+		<ul class="header_menu animate" id="ricerca">
+			<form id="barra">
+				<input type="search" placeholder="Search">
+			</form>
+
+		</ul>
+
+
+
+
+
+		<!--- HEADER --->
+
+		<ul class="header_menu animate" id="menu_tendina_dirette">
+			<li class="header_menu_item"><a href="https://www.google.it/">DIRETTE</a></li>
+		</ul>
+
+		<ul class="header_menu animate" id="menu_tendina_uscite">
+			<li class="header_menu_item"><a href="">PROSSIME USCITE</a></li>
+			<ul class="dropdown_list">
+				<li><a href="">USCITE 1</a></li>
+				<li><a href="">USCITE 2</a></li>
+				<li><a href="">USCITE 3</a></li>
+			</ul>
+		</ul>
+
+		<ul class="header_menu animate" id="menu_tendina_news">
+			<li class="header_menu_item"><a href="">NEWS</a></li>
+			<ul class="dropdown_list">
+				<li><a href="">NEWS 1</a></li>
+				<li><a href="">NEWS 2</a></li>
+				<li><a href="">NEWS 3</a></li>
+			</ul>
+		</ul>
+
+	</header>
+</head>
+
+
+
+
+
+<!--- BODY --->
+
+<body class="body">
+
+	<div class="wrapper">
+
+		<div class="contenitore1">
+
+		</div>
+
+		<div class="contenitore2">
+
+			<div class="schede" id="schede1">
+				<a href="https://www.google.it">
+						<img src="thedivision2_1.jpg" alt="The Division 2">
+								<h3 class="schedatext">THE DIVISION 2</h3>
+								</a>
+			</div>
+
+			<div class="schede" id="schede2">
+				<iframe id="ytplayer" type="text/html" width="400" height="225" src="http://www.youtube.com/embed/OwvKFOfckeM?autoplay=0&origin=http://example.com" frameborder="0">
+
+  </iframe>
+			</div>
+
+			<div class="schede" id="schede3">
+			</div>
+
+			<div class="schede" id="schede4">
+			</div>
+
+			<div class="schede" id="schede5">
+			</div>
+
+			<div class="schede" id="schede6">
+			</div>
+
+		</div>
+
+		<div class="contenitore3">
+
+		</div>
+	</div>
+</body>
+
+<footer class="footer">
+	<a href="https://www.facebook.com/gamerinparadiso/" target="_blank"><img src="loghi/facebook logo.png" title="Facebook" alt"Facebook" style="height:40px; width: auto"></img></a>
+	<a href="https://www.instagram.com/gamer_in_paradiso/" target="_blank"><img src="loghi/instagram logo.png" title="Instagram" alt"Instagram" style="height:40px; width: auto"></img></a>
+	<a href="https://twitter.com/gamerinparadiso" target="_blank"><img src="loghi/twitter logo.png" title="Twitter" alt"Twitter" style="height:40px; width: auto"></img></a>
+	<a href="https://discord.gg/hurtN" target="_blank"><img src="loghi/discord logo.png" title="Discord" alt"Discord" style="height:40px; width: auto"></img></a>
+</footer>
+
+
+
+
+
+
+<!--- SCRIPT --->
+
+<script>
+	$(document).ready(function() {
+
+		$(".header_icon-bar").click(function(e) {
+
+			$(".header_menu").toggleClass('is-open');
+			e.preventDefault();
+
+		});
+	});
+
+	// ----- Animazione menu tendina ----- //
+
+	$(document).ready(function() {
+		$("#menu_tendina_news").hover(function() {
+
+				$('ul', this).stop(true, true).delay(50).slideDown(100);
+
+			},
+			function() {
+
+				$('ul', this).stop(true, true).slideUp(200);
+			}
+		);
+	});
+
+	$(document).ready(function() {
+		$("#menu_tendina_uscite").hover(function() {
+
+				$('ul', this).stop(true, true).delay(50).slideDown(100);
+
+			},
+			function() {
+
+				$('ul', this).stop(true, true).slideUp(200);
+			}
+		);
+	});
+</script>
+
+<!--- script overlay -->
+<script>
+	function openNav() {
+		document.getElementById("nav").style.display = "block";
+	}
+
+	function closeNav() {
+		document.getElementById("nav").style.display = "none";
+	}
+</script>
+
+
+
+
+</html>
