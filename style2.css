@@ -248,9 +248,6 @@ div.wrapper {
   height: 2028px;
 }
 
-
-
-
 /*------ CONTENITORE 1 ------*/
 
 div.contenitore1 {
@@ -267,12 +264,14 @@ div.contenitore1:hover {
   box-shadow: 2px 2px 10px #000, -2px -2px 10px #000, -2px 2px 10px #000, 2px -2px 10px #000;
 }
 
-div.contenitore1 img{
+div.contenitore1 img {
   max-height: auto;
   max-width: 1080px;
+  transition-timing-function: ease;
+  transition-duration: 1s;
 }
 
-div.contenitore1 img:hover{
+div.contenitore1 img:hover {
   transform: scale(1.1);
   transform-origin: 50% 50%;
   transition-timing-function: ease;
@@ -280,7 +279,7 @@ div.contenitore1 img:hover{
   filter: brightness(40%);
 }
 
-h3.maintitle{
+h3.maintitle {
   text-align: center;
   top: 45%;
   position: absolute;
@@ -292,19 +291,15 @@ h3.maintitle{
   font-size: 60px;
 }
 
-
-
-
-
 /*------ CONTENITORE 2 ------*/
 
 div.contenitore2 {
-    float: left;
-    overflow: visible;
-    height: 1400px;
-    margin-top: 10px;
-    max-width: 400px;
-    margin-bottom: 10px;
+  float: left;
+  overflow: visible;
+  height: 1400px;
+  margin-top: 10px;
+  max-width: 400px;
+  margin-bottom: 10px;
 }
 
 div.schede {
@@ -337,7 +332,7 @@ div.schede img:hover {
   filter: brightness(40%);
 }
 
-h3.schedatext{
+h3.schedatext {
   text-align: center;
   top: 45%;
   position: absolute;
@@ -348,8 +343,6 @@ h3.schedatext{
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
 }
-
-
 
 /*------ CONTENITORE 3 ------*/
 
@@ -376,9 +369,6 @@ div.calendario {
   background-color: rgba(16, 16, 16, 0.8);
   border-radius: 2px;
 }
-
-
-
 
 /* ---- FOOTER ---- */
 
@@ -562,11 +552,9 @@ footer.footer {
 /*------------------------ TABLET ------------------------*/
 
 @media (max-width: 1024px) {
-
-body{
-max-width: 1024px;
-}
-
+  body {
+    max-width: 1024px;
+  }
   .header_icon-bar {
     display: block;
   }
@@ -594,13 +582,11 @@ max-width: 1024px;
   .logotext li.firstletter {
     margin-left: 10px;
     font-size: 33px;
-
   }
-  div.wrapper{
+  div.wrapper {
     width: 100vw;
     height: 100%;
   }
-
   div.contenitore1 {
     display: none;
     overflow: visible;
@@ -620,19 +606,21 @@ max-width: 1024px;
     margin-top: 0px;
     margin-bottom: 10px;
   }
-
   div.contenitore3 {
     float: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
     max-height: 1095px;
     max-width: 65vw;
   }
-
-  div.videoplayer{
+  div.calendario {
+    margin-top: 5px;
+  }
+  div.videoplayer {
     width: auto;
   }
-
   div.schede img {
-    height: 100%;
+  
     width: 100%;
     display: block;
     /*border-radius: 2px;*/
@@ -647,10 +635,7 @@ max-width: 1024px;
     transition-duration: 1s;
     filter: brightness(40%);
   }
-  div.schede h3 {
-
-  }
-
+  div.schede h3 {}
   div.schede {
     background: rgba(16, 16, 16, 0.2);
     margin-right: 5px;
@@ -663,7 +648,6 @@ max-width: 1024px;
     overflow: hidden;
     margin-bottom: 5px;
   }
-
 }
 
 /*---------------------- SMARTPHONE ----------------------*/
