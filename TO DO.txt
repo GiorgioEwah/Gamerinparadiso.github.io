@@ -1,0 +1,83 @@
+
+///////////////////////////////////////// TODO ///////////////////////////////////////////
+
+
+pulire il codice
+multilingua
+contenuti dinamici
+chat
+Tema chiaro/scuro
+sistemare il layout di ricerca
+
+ANDROID DEVELOPMENT
+Creare un'applicazione android che cambia dinamicamente le icone sulla home a seconda di varie condizioni
+
+FATTO
+scegliere layout pagina
+
+
+/////////////////////////////////// AUTOPLAY VIDEO ////////////////////////////////////////
+
+
+link youtube?rel=0&autoplay=1&mute=1&loop=1&showinfo=0&controls=0&playlist=
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+https://codepen.io/zessx/pen/bdoMQN?depth=everything&order=popularity&page=2&q=triangulate&show_forks=false
+https://codepen.io/msurguy/pen/sbIio?depth=everything&order=popularity&page=2&q=triangulate&show_forks=false
+
+
+
+////////////////////////////////////// COLORI ////////////////////////////////////////////
+
+SCRITTE:
+teal chiaro #009688
+bianco scuro #D8D8D8
+
+BACKGROUND:
+grigio scuro #212121
+
+HEADER\FOOTER
+background: rgba(16, 16, 16, 0.2)
+
+CONTENITORI:
+background: rgba(16, 16, 16, 0.2)
+
+
+https://www.materialpalette.com/colors
+
+
+
+//////////////////////////////////////PASSWORDS//////////////////////////////////////////
+
+GMAIL
+-TR>fKt:/[LF+_&[Qd^6YrXJHG.MnK%>NhWHsfV%yLuJ,~ygK]yVG]`@w<
+
+INSTAGRAM
+SLr6$}7,H>+K:S'YE-9MCtc^Qux[AeqFC2};?B&^9/4*nu9FcHLML!mY8ahw
+
+Twitter
+DcCJ!4LEUBg&JQC@-dURxc#XQ6SR2gN@@@$%maUH=5N-+f+yMBEJQWu2T9-&Ytjh9v*JChx8d+TbuT@KV4RD6UMercz=m!&NxA6!-s54a@^+2RdM6#=UVTeGkKpu9QQMmRPrtKe9ezDV_#r$y+wB4*ta#V3$=L839brY^MG6e9D2wfysyDCFJ%CRa^j&azK6!ar#V=t^!7bKcj9rrSktk5fkqANuqZ$_p&Pm!CQs+wxuAp9*ekUsj6cymHw%+TmM
+
+
+WORDPRESS
+-x^=mre$?8x7fLTe=&ggmdDQxkz=pD2gh#zXapRMFNv#U!wz*r3cy7rQWd!A5R9AXVA-!=7v&KLj%g+3xtm+Es5BK-rALg2GgQQb5f&M?PDkBj8aqr&$2X*87CD-PdwZ8majnRSK!ymszbXS77NSZ^aCbzcA$tjKeUjbF_zSmY8@9SBk$ZgSJP@pFs=uvhsU2wZKPDk&=E696mAWnWb&x9x+ck25NTnK7&t4S$@=unLf&t-^Nw&=-@K?L&Ln=55S
+
+bho il coso che hosta
+zRd3u&R%Z+LVCtMu
+
+
+CONTENITORE3 TABLET BACKUP
+height: inherit;
+width: 50%;
+overflow: inline-block;
+float: right;
+background: rgba(16, 16, 16, 0.2);
+width: 650px;
+max-width: 439px;
+height: 1203px;
+margin-top: -1090px;
+margin-right: 10px;
+float: right;
+border-radius: 2px;
